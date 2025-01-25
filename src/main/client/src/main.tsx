@@ -5,15 +5,20 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./routes/Root";
 import ErrorPage from "./components/ErrorPage";
 import Dashboard from "./routes/Dashboard";
-
+import History
+ from "./routes/History";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
       {
-        path: "/dashboard",
+        path: "/",
         element: <Dashboard />,
+      },
+      {
+        path: "/history",
+        element: <History />,
       },
       {
         path: "*",

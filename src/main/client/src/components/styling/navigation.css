@@ -39,7 +39,7 @@ body {
       padding: 0.55rem 5rem;
       text-align: center;
       transition: 100ms;
-      border: 1px solid var(--gray-light);
+      border: 1px solid var(--super-light);
     }
 
     a:hover {

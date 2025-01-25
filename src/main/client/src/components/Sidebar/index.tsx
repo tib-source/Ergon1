@@ -64,7 +64,7 @@ const Sidebar = () => {
         <div className="navigation__pages">
           <NavLink
             className={({ isActive }) => (isActive ? "active" : "")}
-            to={"/dashboard"}
+            to={"/"}
           >
             Dashboard
           </NavLink>

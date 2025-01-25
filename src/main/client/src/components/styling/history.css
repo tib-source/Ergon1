@@ -1,0 +1,13 @@
+.history{
+    height: 100%;
+    padding: 3rem;
+    width: 90%;
+
+    .history__title {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+      }
+    
+
+}

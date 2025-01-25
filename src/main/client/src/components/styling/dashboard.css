@@ -1,17 +1,18 @@
 .styled__button {
   text-decoration: none;
   color: white;
-  background-color: var(--bright);
-  border: 1px solid var(--bright);
+  background-color: var(--primary-bg);
   font-size: 1.15em;
   padding: 0.5rem 1rem;
   transition: 100ms;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 .styled__button:hover {
-  background-color: var(--button);
-  transform: scale(1.01);
+  background-color: var(--active);
 }
+
 
 .dashboard {
   height: 100%;
@@ -260,12 +261,12 @@
 }
 
 .status {
-  font-weight: 700;
   display: grid;
-  font-size: 0.75rem;
+  font-size: .85rem;
   text-align: center;
-  padding: 0.5rem 0.75rem;
+  padding: 0.25rem .75rem;
   border-radius: 2rem;
+  
 }
 
 .status__available {
@@ -281,6 +282,12 @@
   background-color: #d6f6f4;
   color: #3bd2c8;
 }
+
+.status__pending {
+  background-color: #d6f6f4;
+  color: #29a89f;
+}
+
 
 .status__decommissioned {
   background-color: #fef2e5;
